@@ -210,6 +210,7 @@ section h2 {
 section hr {
 	width: 30%;
 	border: 1px solid rgb(221, 134, 21);
+	margin: auto;
 }
 
 .container1 {
