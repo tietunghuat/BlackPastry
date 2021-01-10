@@ -7,10 +7,10 @@
     <title>Black Pastry</title>
     <link rel="icon" href="img/logo.png" type="image/x-icon" />
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/indexmain.css">
-    <link rel="stylesheet" href="css/dropdown.css">
-    <link rel="stylesheet" href="css/merchandise.css">
-    <link rel="stylesheet" href="css/merchandisecard.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="merchandise.css">
+    <link rel="stylesheet" href="merchandisecard.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -22,27 +22,28 @@
     <div class="header">
         <a href="index.html"><img src="img/logo.png"
                 style="width: 100px;height:auto;float: left;padding-left: 25px;"></a>
-            <ul>
-                
-                <li><a href="Search.html"><i class="fas fa-search"></i></a></li>
-
-                <div class="dropdown">
-                    <li class="dropbtn">PRODUCTS ≡</li>
-                    <div class="dropdown-content">
-                        <a href="topsales.html">Top Sales</a>
-                        <a href="Event.html">Event</a>
-                        <a href="Entremet.html">Entremet</a>
-                        <a href="Petit_Gateau.html">Petit Gateau</a>
-                        <a href="Beverage.html">Beverage</a>
-                    </div>
+        <ul>
+            <div class="dropdown">
+                <li class="dropbtn">PRODUCTS ≡</li>
+                <div class="dropdown-content">
+                    <a href="Event.html">Top Sales</a>
+                    <a href="Event.html">Event</a>
+                    <a href="Entremet.html">Entremet</a>
+                    <a href="Petit_Gateau.html">Petit Gateau</a>
+                    <a href="Beverage.html">Beverage</a>
                 </div>
+            </div>
 
-                <li><a href="Preview.html">Preview</a></li>
-                <li><a href="Merchandise.html">Merchandise </a></li>
-                <li><a href="About.html">About us</a></li>
-                <li><a href="Cart.html">Cart ▶</a></li>
-                <li><a href="Login.html">Login</a></li>
-            </ul>
+            <li><a href="Preview.html">Preview</a></li>
+            <li><a href="Merchandise.html">Merchandise </a></li>
+            <li><a href="About.html">About us</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Cart.html">Cart ▶</a></li>
+        </ul>
+
+        <div class='console-container'><span id='text'></span>
+            <div class='console-underscore' id='console'>&#95;</div>
+        </div>
     </div>
 
 
@@ -58,7 +59,7 @@
     <div class="section">
         <div class="fixed">
             <h1>Christmas Event</h1>
-            <img src="img/Petit Gateour/Xmas/IMG_6569.PNG" style="width: 500px;height: auto;">
+            <a href="Christmas.html" target="_blank"><img src="img/Petit Gateour/Xmas/IMG_6569.PNG" style="width: 500px;height: auto;"></a>
             <p>Ho Ho Ho!
                 Merry X'mas!
                 The annual Christmas season is here again!
@@ -71,8 +72,15 @@
     </div>
     <div class="section">
         <div class="fixed">
+            <h1>Our Top Sales Puff</h1>
+            <a href="topsales.html" target="_blank"><img src="img/Petit Gateour/IMG_6547.PNG" style="width: 500px;height: auto;"></a>
+            <p>The most popular and most often made dessert in our store!</p>
+        </div>
+    </div>
+    <div class="section">
+        <div class="fixed">
             <h1>Our Packaging Boxes</h1>
-            <img src="img/MirrorGlaze/a2.jpg" style="width: 500px;height: auto;">
+            <a href="merchandise.html" target="_blank"><img src="img/MirrorGlaze/a2.jpg" style="width: 500px;height: auto;"></a>
             <p>We offer exquisite, elegant and delicious cakes. In addition, we make our boxes just as sophisticated and
                 elegant, so
                 that our store can show our unique characteristics and standards!</p>
@@ -81,35 +89,28 @@
     <div class="section">
         <div class="fixed">
             <h1>MirrorGlaze Heart</h1>
-            <img src="img/MirrorGlaze/IMG_6567.PNG" style="width: 500px;height: auto;">
+            <a href="entremet.html" target="_blank"><img src="img/MirrorGlaze/IMG_6567.PNG" style="width: 500px;height: auto;"></a>
             <p>We accept customer-defined cake shapes, flavors and desired colors.</p>
         </div>
     </div>
     <div class="section">
         <div class="fixed">
             <h1>MirrorGlaze Cube</h1>
-            <img src="img/MirrorGlaze/IMG_6521.PNG" style="width: 500px;height: auto;">
+            <a href="entremet.html" target="_blank"><img src="img/MirrorGlaze/IMG_6521.PNG" style="width: 500px;height: auto;"></a>
             <p>The cake that requested by a customer on Father's Day</p>
         </div>
     </div>
     <div class="section">
         <div class="fixed">
-            <h1>Puff</h1>
-            <img src="img/Petit Gateour/IMG_6547.PNG" style="width: 500px;height: auto;">
-            <p>The most popular and most often made dessert in our store!</p>
-        </div>
-    </div>
-    <div class="section">
-        <div class="fixed">
             <h1>Petit Gateau</h1>
-            <img src="img/Petit Gateour/IMG_6546.PNG" style="width: 500px;height: auto;">
+            <a href="petit.html" target="_blank"><img src="img/Petit Gateour/IMG_6546.PNG" style="width: 500px;height: auto;"></a>
             <p>The most popular dessert in our store is a set menu for special holidays.</p>
         </div>
     </div>
     <div class="section">
         <div class="fixed">
             <h1>Beverage</h1>
-            <img src="img/Beverage/latte.jpg" style="width: 500px;height: auto;">
+            <a href="beverage.html" target="_blank"><img src="img/Beverage/latte.jpg" style="width: 500px;height: auto;"></a>
             <p>We not only provide cake,we also provide coffee and some Beverage, so that
                 customer can enjoy our Beverage while having cakies
             </p>
@@ -179,4 +180,5 @@
         }, 400)
     }
 </script>
+
 </html>
