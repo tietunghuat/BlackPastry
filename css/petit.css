@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body{
+           
+            padding: 0%;
+            margin: 0%;
+            background: #10100E no-repeat;
+            background-size: cover;
+        }
+        *{
+            box-sizing: inherit;
+            transition-property: all;
+            transition-duration: .6s;
+            transition-timing-function: ease;
+        }
+        .header
+        {
+            width: 100%;
+            
+        }
+        .header ul{
+            text-align: center;
+        }
+        .header ul li
+        {
+            list-style: none;
+            display: inline-block;
+        }
+        .header ul li a{
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 25px;
+            font-family: 'Jura', sans-serif;
+            font-weight: 600;
+            padding: 35px;
+            letter-spacing: 0;
+        }
+        .header ul li a:hover,
+.header ul li a:active
+        {
+            background-color: #03030385;
+            letter-spacing: 5px;   
+        }
+.header ul li a:after,
+.header ul li a:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.header ul li a:hover:after,
+.header ul li a:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.header ul li a:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+footer
+{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    background-color: #030303b6;
+}  
+
+header {
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}

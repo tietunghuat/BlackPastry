@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+body {
+  padding: 0%;
+  margin: 0%;
+  background: #10100E no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+.bg-container {
+  background-image: "../img/black/IMG_7003.PNG";
+}
+
+
+.bg-bg {
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  height: 800px;
+  margin-bottom: 60px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+section p {
+  font-family: 'Spartan', sans-serif;
+  color: rgb(221, 184, 21);
+  font-size: 25px;
+  text-align: center;
+}
+
+section h2 {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+section hr {
+  width: 30%;
+  border: 1px solid rgb(221, 134, 21);
+}
+
+hr{
+	margin: 0 auto;
+    margin-top: 15px;
+}
+
+.chevron {
+  text-align: center;
+  margin: 0 auto;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before, .chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.typing-demo {
+  width: 80%;
+  animation: typing 5s steps(50), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10%;
+  text-align: center;
+  padding-left: 10%;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}

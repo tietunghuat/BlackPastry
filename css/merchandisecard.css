@@ -1,0 +1,183 @@
+@import 'https://fonts.googleapis.com/css?family=Sintony';
+*{
+	 box-sizing: border-box;
+}
+ body {
+	 background: #222;
+	 padding: 0;
+	 margin: 0;
+	 font-weight: 300;
+	 font-size: 15px;
+	 text-transform: uppercase;
+	 color: #000;
+}
+.section h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.section button
+{
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: black 1px solid;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    font-weight: bolder;
+    font-size: 20px;
+}
+    .section .btn:hover
+     {
+           opacity: 0.8;
+     }
+.section p
+{
+    font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+ .section {
+	 text-align: center;
+	 position: absolute;
+	 width: 100%;
+	 height: 100vh;
+	 letter-spacing: 4px;
+	 overflow: hidden;
+	 clip: rect(0, auto, auto, 0);
+}
+ .section .fixed {
+	 overflow: hidden;
+	 position: fixed;
+	 top: 50%;
+	 left: 50%;
+}
+ .section .white {
+	 color: #fff;
+}
+
+ .section:nth-child(1) {
+	 background-color: #fff;
+	 color: #000;
+	 top: 0;
+	 z-index: 1;
+}
+ .section:nth-child(1) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(2) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: #000000;
+	 color: #fff;
+	 top: 100vh;
+	 z-index: 2;
+}
+ .section:nth-child(2) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(3) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color:   #ec790e9f;
+	 color: #fff;
+	 top: 200vh;
+	 z-index: 3;
+}
+ .section:nth-child(3) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(4) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: #0a0a0a;
+	 color: #fff;
+	 top: 300vh;
+     z-index: 4;
+     font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+ .section:nth-child(4) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(5) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: #0a0a0a;
+	 color: #fff;
+	 top: 400vh;
+     z-index: 5;
+     font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+ .section:nth-child(5) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(6) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: #0a0a0a;
+	 color: #fff;
+	 top: 500vh;
+     z-index: 6;
+     font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+ .section:nth-child(6) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(7) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: #0a0a0a;
+	 color: #fff;
+	 top: 600vh;
+     z-index: 7;
+     font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+ .section:nth-child(7) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(8) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: #0a0a0a;
+	 color: #fff;
+	 top: 700vh;
+     z-index: 8;
+     font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+ .section:nth-child(8) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(9) {
+	 box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+	 background-color: #0a0a0a;
+	 color: #fff;
+	 top: 800vh;
+     z-index: 9;
+     font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+ .section:nth-child(9) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .section:nth-child(10) {
+	 background-color: #000;
+	 color: #fff;
+	 top: 900vh;
+     z-index: 10;
+     font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+}
+ .section:nth-child(10) .fixed {
+	 transform: translate(-50%, -50%);
+}
+ .oop {
+	 position: relative;
+	 z-index: auto;
+	 height: 10px;
+}
+ .section img
+ {
+	 transition: transform .2s;
+ }
+  .section img:hover
+ {
+	 transform: scale(1.1); 
+ }

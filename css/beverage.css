@@ -1,0 +1,154 @@
+body {
+  background: #10100E no-repeat;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+section {
+  padding-top: 60%;
+}
+
+section p {
+  font-family: 'Kalam', cursive;
+  color: rgb(221, 134, 21);
+  font-size: 25px;
+  text-align: center;
+}
+
+section h2 {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+  color: white;
+  margin: 15px auto;
+}
+
+section hr {
+  margin: 0 auto;
+  width: 30%;
+  border: 1px solid rgb(221, 134, 21);
+}
+
+.wrapper {
+  height: 420px;
+  width: 800px;
+  margin: 50px auto;
+  border-radius: 7px 7px 7px 7px;
+}
+
+.product-img img {
+  float: left;
+  border-radius: 7px 0 0 7px;
+  height: 420px;
+  width: 410px;
+}
+
+
+.product-info {
+  float: left;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.product-text {
+  height: 300px;
+  width: 327px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 34px;
+  color: #000000;
+}
+
+.product-text h1, .product-price-btn p {
+  font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+  margin: 0 0 47px 38px;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  width: auto;
+  height: 125px;
+  margin: 0 25px 0 40px;
+  font-family: 'Playfair Display', serif;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.product-price-btn {
+  height: 103px;
+  width: 327px;
+  margin-top: 17px;
+  position: relative;
+}
+
+.product-price-btn p {
+  display: inline-block;
+  position: absolute;
+  top: -13px;
+  height: 50px;
+  font-family: 'Trocchi', serif;
+  margin: 0 0 0 38px;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+span {
+  display: inline-block;
+  height: 50px;
+  font-family: 'Suranna', serif;
+  font-size: 34px;
+}
+
+.product-price-btn button {
+  display: inline-block;
+  height: 50px;
+  width: 176px;
+  margin: 10% 40px 0 40%;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #000000;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: #05130f75;
+}
+
+#video-bg {
+  width: 100%;
+  height: 148%;
+  margin: 0%;
+}
+
+.video-container {
+  z-index: -100;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}

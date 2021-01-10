@@ -1,0 +1,52 @@
+.dropbtn {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
+  padding: 35px;
+  letter-spacing: 0;
+
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #03030385;
+  z-index: 99;
+  min-width: 225px;
+}
+
+.dropdown-content a {
+  font-family: 'Jura', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #03030385;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #03030385;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
